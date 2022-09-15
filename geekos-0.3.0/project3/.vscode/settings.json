@@ -1,0 +1,9 @@
+{
+	"files.associations": {
+		"kthread.h": "c",
+		"list.h": "c",
+		"timer.h": "c",
+		"ktypes.h": "c",
+		"io.h": "c"
+	}
+}

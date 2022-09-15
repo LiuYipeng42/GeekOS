@@ -1,0 +1,154 @@
+.:
+total 904
+drwxrwxrwx 2 xiongzhuo xiongzhuo    4096 2022-05-02 22:09 common
+-rw-r--r-- 1 xiongzhuo xiongzhuo   26095 2022-05-02 22:09 depend.mak
+-rw-r--r-- 1 xiongzhuo xiongzhuo 1474560 2022-05-02 22:09 fd_aug.img
+-rw-r--r-- 1 xiongzhuo xiongzhuo  121856 2022-05-02 22:09 fd.img
+-rw-r--r-- 1 xiongzhuo xiongzhuo       0 2022-05-02 22:09 file1
+drwxrwxrwx 2 xiongzhuo xiongzhuo    4096 2022-05-02 22:09 geekos
+drwxrwxrwx 2 xiongzhuo xiongzhuo    4096 2022-05-02 22:09 libc
+-rwxrw-rw- 1 xiongzhuo xiongzhuo   12062 2022-05-02 22:09 Makefile
+-rw-rw-rw- 1 xiongzhuo xiongzhuo   12083 2022-04-17 12:40 Makefile~
+drwxrwxrwx 2 xiongzhuo xiongzhuo    4096 2022-05-02 22:09 tools
+drwxrwxrwx 2 xiongzhuo xiongzhuo    4096 2022-05-02 22:09 user
+
+./common:
+total 16
+-rw-r--r-- 1 xiongzhuo xiongzhuo 4416 2022-05-02 22:09 fmtout.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  852 2022-05-02 22:09 memmove.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo 2156 2022-05-02 22:09 string.o
+
+./geekos:
+total 1088
+-rw-r--r-- 1 xiongzhuo xiongzhuo   3972 2022-05-02 22:09 argblock.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   9400 2022-05-02 22:09 bget.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   5360 2022-05-02 22:09 bitset.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  15392 2022-05-02 22:09 blockdev.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  17516 2022-05-02 22:09 bufcache.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   9044 2022-05-02 22:09 consfs.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   3724 2022-05-02 22:09 crc32.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   8624 2022-05-02 22:09 dma.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   4592 2022-05-02 22:09 elf.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo    512 2022-05-02 22:09 fd_boot.bin
+-rw-r--r-- 1 xiongzhuo xiongzhuo  20212 2022-05-02 22:09 floppy.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   7828 2022-05-02 22:09 gdt.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  37528 2022-05-02 22:09 gosfs.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  14196 2022-05-02 22:09 ide.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   6172 2022-05-02 22:09 idt.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   6756 2022-05-02 22:09 int.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   3060 2022-05-02 22:09 io.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   7660 2022-05-02 22:09 irq.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 120832 2022-05-02 22:09 kernel.bin
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 329764 2022-05-02 22:09 kernel.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  18481 2022-05-02 22:09 kernel.syms
+-rw-r--r-- 1 xiongzhuo xiongzhuo  11172 2022-05-02 22:09 keyboard.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  35424 2022-05-02 22:09 kthread.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   6736 2022-05-02 22:09 lowlevel.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  10584 2022-05-02 22:09 main.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   5720 2022-05-02 22:09 malloc.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  20000 2022-05-02 22:09 mem.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  12124 2022-05-02 22:09 mqueue.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  26848 2022-05-02 22:09 paging.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  23048 2022-05-02 22:09 pfat.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  14660 2022-05-02 22:09 pipefs.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  18200 2022-05-02 22:09 scheduler.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  20500 2022-05-02 22:09 screen.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   7392 2022-05-02 22:09 segment.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo    512 2022-05-02 22:09 setup.bin
+-rw-r--r-- 1 xiongzhuo xiongzhuo  12736 2022-05-02 22:09 synch.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  45060 2022-05-02 22:09 syscall.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   4404 2022-05-02 22:09 sysinfo.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  11412 2022-05-02 22:09 timer.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   5800 2022-05-02 22:09 trap.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   5888 2022-05-02 22:09 tss.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  12984 2022-05-02 22:09 user.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  28308 2022-05-02 22:09 uservm.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  25004 2022-05-02 22:09 vfs.o
+
+./libc:
+total 100
+-rw-r--r-- 1 xiongzhuo xiongzhuo   915 2022-05-02 22:09 acl.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  5756 2022-05-02 22:09 bget.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1068 2022-05-02 22:09 compat.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  2280 2022-05-02 22:09 conio.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  3752 2022-05-02 22:09 curses.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   860 2022-05-02 22:09 entry.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1221 2022-05-02 22:09 errno.c
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1852 2022-05-02 22:09 errno.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1932 2022-05-02 22:09 fileio.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   793 2022-05-02 22:09 kernel.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo 33846 2022-05-02 22:09 libc.a
+-rw-r--r-- 1 xiongzhuo xiongzhuo   922 2022-05-02 22:09 mq.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1792 2022-05-02 22:09 process.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   747 2022-05-02 22:09 sched.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo   867 2022-05-02 22:09 sema.o
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1352 2022-05-02 22:09 unix.o
+
+./tools:
+total 12
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 10207 2022-05-02 22:09 builtFat.exe
+
+./user:
+total 768
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17302 2022-05-02 22:09 b.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo   984 2022-05-02 22:09 b.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17976 2022-05-02 22:09 cat.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  2048 2022-05-02 22:09 cat.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17270 2022-05-02 22:09 c.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo   888 2022-05-02 22:09 c.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17911 2022-05-02 22:09 cp.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  2024 2022-05-02 22:09 cp.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17403 2022-05-02 22:09 format.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1152 2022-05-02 22:09 format.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17964 2022-05-02 22:09 frecv.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1592 2022-05-02 22:09 frecv.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17964 2022-05-02 22:09 fsend.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1632 2022-05-02 22:09 fsend.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17242 2022-05-02 22:09 hello.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo   872 2022-05-02 22:09 hello.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 18684 2022-05-02 22:09 long.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  2260 2022-05-02 22:09 long.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 18129 2022-05-02 22:09 ls.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  2212 2022-05-02 22:09 ls.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17338 2022-05-02 22:09 mkdir.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1100 2022-05-02 22:09 mkdir.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 18568 2022-05-02 22:09 more.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  2768 2022-05-02 22:09 more.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17370 2022-05-02 22:09 mount.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1204 2022-05-02 22:09 mount.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17193 2022-05-02 22:09 null.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo   760 2022-05-02 22:09 null.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 18914 2022-05-02 22:09 p4a.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  2852 2022-05-02 22:09 p4a.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 24642 2022-05-02 22:09 p5test.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo 11056 2022-05-02 22:09 p5test.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17929 2022-05-02 22:09 ping.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1428 2022-05-02 22:09 ping.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17353 2022-05-02 22:09 pipe.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1168 2022-05-02 22:09 pipe.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17897 2022-05-02 22:09 pong.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1340 2022-05-02 22:09 pong.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17926 2022-05-02 22:09 rec.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1640 2022-05-02 22:09 rec.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17335 2022-05-02 22:09 rm.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1164 2022-05-02 22:09 rm.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17639 2022-05-02 22:09 schedset.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1224 2022-05-02 22:09 schedset.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17893 2022-05-02 22:09 setacl.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1436 2022-05-02 22:09 setacl.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17797 2022-05-02 22:09 setuid.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1284 2022-05-02 22:09 setuid.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 21186 2022-05-02 22:09 shell.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  5852 2022-05-02 22:09 shell.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17305 2022-05-02 22:09 sync.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo   988 2022-05-02 22:09 sync.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17462 2022-05-02 22:09 touch.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1256 2022-05-02 22:09 touch.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 18345 2022-05-02 22:09 tstwrite.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  2080 2022-05-02 22:09 tstwrite.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17589 2022-05-02 22:09 type.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1452 2022-05-02 22:09 type.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 17999 2022-05-02 22:09 wc.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  1876 2022-05-02 22:09 wc.o
+-rwxr-xr-x 1 xiongzhuo xiongzhuo 18477 2022-05-02 22:09 workload.exe
+-rw-r--r-- 1 xiongzhuo xiongzhuo  2284 2022-05-02 22:09 workload.o
